@@ -1,0 +1,258 @@
+* i {
+    color: #FA7436;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card-1 {
+    background-color: #FEFCFB;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+nav .logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-list ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav .buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-right: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav .sign-up {
+    border: solid #FA7436;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 160px;
+    height: 50px;
+    background-color: #FA7436;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav .login {
+    border: none;
+    background: none;
+    font-weight: bold;
+    color: #FA7436;
+    font-size: 16px;
+}
+
+nav :hover {
+    cursor: pointer;
+    box-shadow: #FFFFFF 0px 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.container img {
+    width: 50vw;
+}
+
+.container h3 {
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+}
+
+
+.container span {
+    color: #FA7436;
+}
+
+.container p {
+    width: 497px;
+    height: 120px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(31, 30, 33);
+    text-shadow: 0px 2px 4px lightslategray;
+}
+
+.container button {
+    width: 178px;
+    height: 60px;
+    color: #FA7436;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    border: 2px solid #FA7436;
+    border-radius: 5px;
+}
+
+.selector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight: 16px;
+    font-style: normal;
+    padding: 10px 160px;
+    margin: 50px;
+    width: 841px;
+    height: 124px;
+    border: 1px #FFFFFF;
+    border-radius: 5px;
+}
+
+.opt {
+    font-size: 10px;
+}
+
+.selector button {
+    width: 165px;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: #FA7436;
+    border: 2px;
+    border-radius: 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.para {
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 18px;
+    font-style: normal;
+    text-align: center;
+}
+
+.todo h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.todo span {
+    color: #FA7436;
+}
+
+.card img{
+    width: 150px;
+    padding-left: 50px;
+}
+
+.container1{
+    padding-top:8%;
+    background-color: #F7F8FC;
+}
+
+.sticker {
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.sticker img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.sticker h2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.sticker p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 18px;
+    font-style: normal;
+    font-size: 14px;
+    color: #555;
+}
+
+.package {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 160px;
+    gap: 30px;
+}
+
+.sticker .star{
+    color: gold;
+}
+
+.sticker1{
+    border:.2px solid black ;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 160px;
+    gap: 30px;
+}
+
+.package2 .old-price{
+    text-decoration: line-through;
+}
+
+.sticker1 :hover{
+    box-shadow: 10px 10px  7px 2px  #e6b9a5;
+}
+
+
+.sticker1 img{
+    width: 220px;
+    height: 230px;
+}
+
+.package .colored{
+    background-color: #f0d5c9;
+    color: #FA7436;
+    border-radius: 2px;
+    width: 42px;
+    height: 24px;
+}
