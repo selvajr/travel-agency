@@ -698,6 +698,9 @@ hr {
 /* responsiveness */
 
 @media (max-width:579px) {
+    nav{
+        flex-wrap: wrap;
+    }
     section2{
         width: 100%;
         flex-wrap: wrap;
