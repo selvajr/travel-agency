@@ -701,7 +701,7 @@ hr {
     nav{
         flex-wrap: wrap;
     }
-    nav .card1{
+    nav .container{
         display: flex;
         flex-direction: column;
     }
