@@ -693,20 +693,3 @@ hr {
     font-family: "Poppins", sans-serif;
     width: 80%;
 }
-
-
-/* responsiveness */
-
-@media (max-width:579px) {
-    nav{
-        flex-wrap: wrap;
-    }
-    nav .container{
-        display: flex;
-        flex-direction: column;
-    }
-    section2{
-        width: 100%;
-        flex-wrap: wrap;
-    }
-}
